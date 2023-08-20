@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "personal-guide-api"
+version = "0.1.0"
+description = ""
+authors = ["Bill1907 <a31829660@gamil.com>"]
+readme = "README.md"
+packages = [{include = "personal_guide_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.101.1"
+uvicorn = "^0.23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
